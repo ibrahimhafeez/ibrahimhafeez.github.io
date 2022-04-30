@@ -1,0 +1,154 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+    } 
+     
+    #container-heading { 
+        background-image: url('countries.jpg'); 
+        height: 500px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+        background-size: cover; 
+        width: 100%; 
+        margin: auto; 
+    } 
+    #strt-word, #search-word { 
+    background-color: black; 
+    color: white; 
+    padding: 8px 26px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 8px 2px; 
+    cursor: pointer; 
+     
+    } 
+    .glass { 
+        height: 40px;  
+         
+        width: 40px; 
+        margin-top: 8px; 
+    } 
+    h1 { 
+     margin-bottom: 13px; 
+     letter-spacing: 2px; 
+      
+    } 
+    p{ 
+       
+        margin-bottom: 12px; 
+    } 
+     
+    .align-em{ 
+        align-items: center; 
+    } 
+     
+     
+    .inputBox { 
+        margin-top: 8px; 
+        width: 400px; 
+        height: 30px; 
+        justify-content: center; 
+    } 
+     
+    #ascending { 
+        background-color: black; 
+        color: white; 
+        padding: 8px 15px; 
+     
+    } 
+     
+     
+      h1{ 
+          color: white; 
+      } 
+      
+      p{ 
+        color: white; 
+        margin-left: 10px; 
+    } 
+     
+    .hiddenText{ 
+        display: none 
+    } 
+     
+     
+     
+    ul { 
+         
+        display: grid;  
+        overflow: hidden; 
+        grid-template-columns: repeat(7, 1fr);    
+    width: 100%; 
+    height: 100%; 
+    margin: auto; 
+     
+     
+    } 
+     
+    li { 
+        background: url("countries.jpeg")  no-repeat center center/cover; 
+
+        border-style: ridge; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 30px; 
+        color: #eaeaea; 
+    } 
+
+
+    @media (max-width: 900px) {
+        
+        ul { 
+         
+            display: grid;  
+            overflow: hidden; 
+            grid-template-columns: repeat(6, 1fr);    
+        width: 100%; 
+        height: 100%; 
+        margin: auto; 
+         
+         
+        } 
+
+        li { 
+            background: url("countries.jpeg")  no-repeat center center/cover; 
+           
+            border-style: ridge; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+            color: #eaeaea; 
+        } 
+
+    @media (max-width: 700px) {
+        ul { 
+         
+            display: grid;  
+            overflow: hidden; 
+            grid-template-columns: repeat(4, 1fr);    
+        width: 100%; 
+        height: 100%; 
+        margin: auto; 
+         
+         
+        } 
+
+        li { 
+            background: url("countries.jpeg")  no-repeat center center/cover; 
+           
+            border-style: ridge; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+            color: #eaeaea; 
+        } 
+    }
+}
+    

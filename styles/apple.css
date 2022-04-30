@@ -1,0 +1,400 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.appleLogo{
+    margin-right: 22px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.navList { 
+    
+ display: flex;
+ align-items: center;
+
+
+
+}
+
+.navList li{
+    list-style: none;
+    margin: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+}
+
+.iphone-header{
+   
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.iphone-watch{
+ 
+    margin-top: 60px;
+    text-align: center;
+}
+
+.iphone-header :nth-child(1){
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+
+}
+.hero-title {
+    font-family: 'Gotham', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.hero-subtitle{
+    font-family: 'Gotham', sans-serif;
+    color: black;
+}
+
+.hero-subtitle:nth-child(1){
+    font-family: 'Gotham', sans-serif;
+    color: white;
+}
+
+.hero-subtitle-phone{
+    font-family: 'Gotham', sans-serif;
+    color: white;
+}
+
+
+#last-section {
+    height: 100vh;
+    width: 100%;
+   display: flex;
+  
+  }
+  
+  #last-section .iphone-row1{
+    width: 100%;
+    height: 100vh;
+  }
+
+  #last-section .iphone-row2{
+    width: 100%;
+    height: 100vh;
+  }
+
+  #last-section .iphone-row3{
+    width: 100%;
+    height: 100vh;
+  }
+
+  #last-section .iphone-row4{
+    width: 100%;
+    height: 100vh;
+  }
+
+section#iphone{
+    background: url("iphone-Image.jpeg") no-repeat center center/cover ;
+    }
+
+section#iphone2{
+    background: url("iphone-colours.jpeg")no-repeat center center/cover  ;
+}
+
+section#Watch{
+background: url("watch.jpeg")no-repeat center center/cover ;
+}
+
+.iphone-row1{
+    
+    background: url("airpadaso.jpg") no-repeat center center/cover ;
+}
+
+.iphone-row2{
+background: url("mini.jpg") no-repeat center center/cover ;
+}
+
+.iphone-row3{
+    background: url("fitness.jpg") no-repeat center center/cover ;
+ 
+}
+
+
+.iphone-row4{
+    background: url("card.jpg") no-repeat center center/cover ;
+}
+
+.apple-text{
+    margin-top: 52px;
+    text-align: center;
+}
+
+.note{
+    color: black;
+    margin: 20px;
+   
+}
+ a{
+    
+}
+
+.footer{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 970px;
+  }
+
+.footer ul{
+   font-size: 12px;
+   list-style: none;
+   border-bottom: 1px solid grey;
+}
+
+.footer ul li{
+ margin: 15px 0;
+ }
+
+.footer-links{
+width: 100%;
+display: flex;
+}
+
+.footer-links-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-columns-titles{
+  font-weight: 500;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-links-column a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #515154;
+    margin-bottom: 14px;
+
+}
+
+.footer__more{
+    margin-top: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #515154;
+}
+
+.footer__more a{
+    color: #515154;
+}
+
+.footer__copyright{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #86868b;
+  margin-top: 4px;
+  position: relative;
+}
+
+ a{
+    color: #87CEFA;
+  
+}
+
+
+  .footer__copyright .links a{
+     border-left: 1px solid gray;
+      padding: 0 10px;
+      color: #515154;
+  }
+
+  .footer__copyright a{
+ 
+     color: #515154;
+ }
+
+  .footer__copyright .links a:nth-child(1) {
+    border: none;
+  }
+
+  
+  
+  .nav-toggle {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    
+ display: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+    width: 100%;
+    height: 45px;
+    display: none;
+
+  }
+
+
+
+  @media (max-width: 947px){
+    #last-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-subtitle-phone{
+        color: white;
+    }
+   
+ 
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-toggle div {
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar .navList{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: black;
+        right:-100%;
+        top: 0;
+        text-align: center;
+        padding-top:30px ;
+        transition: all 5s ease;
+
+    }
+
+    .navbar .navList.active{
+        background-color: black;
+        left: 0;
+            }
+
+   
+
+  
+   
+            .navList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+            
+        
+    }
+
+    .navList li{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        border-bottom: 1px solid grey;
+   margin-left: 30px;
+   margin-bottom: 30x;
+        color: white;
+    }
+  
+.hero-title{
+   
+    font-size: 20px;
+}
+
+    section#iphone{
+        background: url("apple.medium.jpeg") no-repeat center center/cover ;
+        }
+
+        section#Watch{
+            background: url("watch_medium.jpeg")no-repeat center center/cover ;
+            }
+
+           
+    
+  }
+
+  @media (max-width: 500px) {
+#last-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+section#iphone{
+    background: url("iphone_11_pro_small.jpeg") no-repeat center center/cover ;
+    }
+    section#iphone2{
+        background: url("iphone_11_small.jpeg")no-repeat center center/cover  ;
+    }
+
+    section#Watch{
+        background: url("watch_small.jpeg")no-repeat center center/cover ;
+        }
+
+        .footer{
+            display: flex;
+            
+        }
+
+       
+        
+
+  }
+
+
+
+
+
