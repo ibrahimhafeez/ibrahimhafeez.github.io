@@ -1,0 +1,28 @@
+<html> 
+  
+    <!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+       <link rel="stylesheet" href="chart.css"> 
+        <title>Document</title> 
+    </head> 
+    <body> 
+        <div class="container">
+        <div class="head"> 
+        <h1 class="title">World Countries Data</h1> 
+        <h2 class="countryCount">Currently, we have 250 countries</h2>        
+        <button class="population" onclick="chartType('population')">Population</button> <button class="languages" onclick="rerenderChart()">Languages</button> 
+        <div class="spokenText">Top 10 Most <span class="name"></span> In The World</div> 
+    </div>
+        <div><canvas id="myChart"></canvas><canvas id="yourChart"></canvas></div> 
+         
+      
+        
+    </body> 
+    <script src="countries.js"></script>
+    </html> 
+      
