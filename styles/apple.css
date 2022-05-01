@@ -124,34 +124,34 @@ section{
   }
 
 section#iphone{
-    background: url("iphone-Image.jpeg") no-repeat center center/cover ;
+    background: url("Images/iphone-Image.jpeg") no-repeat center center/cover ;
     }
 
 section#iphone2{
-    background: url("iphone-colours.jpeg")no-repeat center center/cover  ;
+    background: url("Images/iphone-colours.jpeg")no-repeat center center/cover  ;
 }
 
 section#Watch{
-background: url("watch.jpeg")no-repeat center center/cover ;
+background: url("Images/watch.jpeg")no-repeat center center/cover ;
 }
 
 .iphone-row1{
     
-    background: url("airpadaso.jpg") no-repeat center center/cover ;
+    background: url("Images/airpadaso.jpg") no-repeat center center/cover ;
 }
 
 .iphone-row2{
-background: url("mini.jpg") no-repeat center center/cover ;
+background: url("Images/mini.jpg") no-repeat center center/cover ;
 }
 
 .iphone-row3{
-    background: url("fitness.jpg") no-repeat center center/cover ;
+    background: url("Images/fitness.jpg") no-repeat center center/cover ;
  
 }
 
 
 .iphone-row4{
-    background: url("card.jpg") no-repeat center center/cover ;
+    background: url("Images/card.jpg") no-repeat center center/cover ;
 }
 
 .apple-text{
@@ -354,11 +354,11 @@ display: flex;
 }
 
     section#iphone{
-        background: url("apple.medium.jpeg") no-repeat center center/cover ;
+        background: url("Images/apple.medium.jpeg") no-repeat center center/cover ;
         }
 
         section#Watch{
-            background: url("watch_medium.jpeg")no-repeat center center/cover ;
+            background: url("Images/watch_medium.jpeg")no-repeat center center/cover ;
             }
 
            
@@ -374,14 +374,14 @@ display: flex;
 
 
 section#iphone{
-    background: url("iphone_11_pro_small.jpeg") no-repeat center center/cover ;
+    background: url("Images/iphone_11_pro_small.jpeg") no-repeat center center/cover ;
     }
     section#iphone2{
-        background: url("iphone_11_small.jpeg")no-repeat center center/cover  ;
+        background: url("Images/iphone_11_small.jpeg")no-repeat center center/cover  ;
     }
 
     section#Watch{
-        background: url("watch_small.jpeg")no-repeat center center/cover ;
+        background: url("Images/watch_small.jpeg")no-repeat center center/cover ;
         }
 
         .footer{
