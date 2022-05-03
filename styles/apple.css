@@ -141,7 +141,7 @@ background: url("Images/https://github.com/ibrahimhafeez/ibrahimhafeez.github.io
 }
 
 .iphone-row2{
-background: url("./images/mini.jpg") no-repeat center center/cover ;
+background: url("../images/mini.jpg") no-repeat center center/cover ;
 }
 
 .iphone-row3{
@@ -151,7 +151,7 @@ background: url("./images/mini.jpg") no-repeat center center/cover ;
 
 
 .iphone-row4{
-    background: url("Images/card.jpg") no-repeat center center/cover ;
+    background: url("../Images/card.jpg") no-repeat center center/cover ;
 }
 
 .apple-text{
