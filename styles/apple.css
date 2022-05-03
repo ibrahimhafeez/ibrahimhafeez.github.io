@@ -137,15 +137,15 @@ background: url("watch.jpeg")no-repeat center center/cover ;
 
 .iphone-row1{
     
-    background: url("Images/airpadaso.jpg") no-repeat center center/cover ;
+    background: url("images/airpadaso.jpg") no-repeat center center/cover ;
 }
 
 .iphone-row2{
-background: url("Images/mini.jpg") no-repeat center center/cover ;
+background: url("./images/mini.jpg") no-repeat center center/cover ;
 }
 
 .iphone-row3{
-    background: url("Images/fitness.jpg") no-repeat center center/cover ;
+    background: url("images/fitness.jpg") no-repeat center center/cover ;
  
 }
 
