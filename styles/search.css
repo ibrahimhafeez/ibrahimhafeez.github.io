@@ -5,7 +5,7 @@
     } 
      
     #container-heading { 
-        background-image: url('countries.jpg'); 
+        background-image: url('../Images/countries.jpg'); 
         height: 500px; 
     display: flex; 
     flex-direction: column; 
@@ -90,7 +90,7 @@
     } 
      
     li { 
-        background: url("countries.jpeg")  no-repeat center center/cover; 
+        background: url("../Images/countries.jpeg")  no-repeat center center/cover; 
 
         border-style: ridge; 
         display: flex; 
@@ -116,7 +116,7 @@
         } 
 
         li { 
-            background: url("countries.jpeg")  no-repeat center center/cover; 
+            background: url("../Images/countries.jpeg")  no-repeat center center/cover; 
            
             border-style: ridge; 
             display: flex; 
@@ -140,7 +140,7 @@
         } 
 
         li { 
-            background: url("countries.jpeg")  no-repeat center center/cover; 
+            background: url("../Images/countries.jpeg")  no-repeat center center/cover; 
            
             border-style: ridge; 
             display: flex; 
