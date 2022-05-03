@@ -96,24 +96,24 @@ section{
         }
 
         section#model-x {
-            background:url("modals.jpeg") no-repeat center center/cover ;
+            background:url("../Images/modals.jpeg") no-repeat center center/cover ;
             }
 
             section#model-Y{
-                background:url("modalx.jpeg") no-repeat center center/cover ;
+                background:url("../Images/modalx.jpeg") no-repeat center center/cover ;
                 }
 
 
             section#solar-Roof{
-                background:url("roof.jpg") no-repeat center center/cover ;
+                background:url("../Images/roof.jpg") no-repeat center center/cover ;
                 }
 
                 section#solar-panel{
-                    background:url("panels.jpg") no-repeat center center/cover ;
+                    background:url("../Images/panels.jpg") no-repeat center center/cover ;
                     }
 
                     section#accessories{
-                        background:url("plug.jpeg") no-repeat center center/cover ;
+                        background:url("../Images/plug.jpeg") no-repeat center center/cover ;
                         }
 
                         .menu-btn{
@@ -172,7 +172,7 @@ section{
 
 
 .navbar .menuList{
-    background: url("cross.png");
+    background: url("../Images/cross.png");
     position: fixed;
     height: 100vh;
     width: 30%;
