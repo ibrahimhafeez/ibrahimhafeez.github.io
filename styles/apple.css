@@ -124,15 +124,15 @@ section{
   }
 
 section#iphone{
-    background: url("iphone-Image.jpeg") no-repeat center center/cover ;
+    background: url("../Images/iphone-Image.jpeg") no-repeat center center/cover ;
     }
 
 section#iphone2{
-    background: url("iphone-colours.jpeg")no-repeat center center/cover  ;
+    background: url("../Images/iphone-colours.jpeg")no-repeat center center/cover  ;
 }
 
 section#Watch{
-background: url("Images/https://github.com/ibrahimhafeez/ibrahimhafeez.github.io/blob/ed2ab6488ccb2227fa65d74336c17ec847ba24e8/Images/airpads.jpeg")no-repeat center center/cover ;
+background: url("../Images/airpads.jpeg")no-repeat center center/cover ;
 }
 
 .iphone-row1{
@@ -354,11 +354,11 @@ display: flex;
 }
 
     section#iphone{
-        background: url("Images/apple.medium.jpeg") no-repeat center center/cover ;
+        background: url("../Images/apple.medium.jpeg") no-repeat center center/cover ;
         }
 
         section#Watch{
-            background: url("Images/watch_medium.jpeg")no-repeat center center/cover ;
+            background: url("../Images/watch_medium.jpeg")no-repeat center center/cover ;
             }
 
            
@@ -374,14 +374,14 @@ display: flex;
 
 
 section#iphone{
-    background: url("Images/iphone_11_pro_small.jpeg") no-repeat center center/cover ;
+    background: url("../Images/iphone_11_pro_small.jpeg") no-repeat center center/cover ;
     }
     section#iphone2{
-        background: url("Images/iphone_11_small.jpeg")no-repeat center center/cover  ;
+        background: url("../Images/iphone_11_small.jpeg")no-repeat center center/cover  ;
     }
 
     section#Watch{
-        background: url("Images/watch_small.jpeg")no-repeat center center/cover ;
+        background: url("../Images/watch_small.jpeg")no-repeat center center/cover ;
         }
 
         .footer{
