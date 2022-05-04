@@ -193,142 +193,77 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
-const startingWord = document.querySelector("#strt-word") 
-const anyWord = document.querySelector("#search-word") 
-const input =  document.querySelector(".inputBox") 
-const alphabet = document.querySelector(".alphabet") 
-const number = document.querySelector(".number") 
-const hiddenText = document.querySelector(".hiddenText") 
-const container = document.querySelector("#characterList") 
-const list = document.querySelector(".character") 
-const ascending = document.querySelector("#ascending") 
-const randomWord = document.querySelector("#search-word") 
-const startWord = document.querySelector("#strt-word") 
+const startingWord = document.querySelector("#strt-word")
+const anyWord = document.querySelector("#search-word")
+const input = document.querySelector(".inputBox")
+const alphabet = document.querySelector(".alphabet")
+const number = document.querySelector(".number")
+const hiddenText = document.querySelector(".hiddenText")
+const noResult = document.querySelector(".no-result")
+const container = document.querySelector("#characterList")
+const list = document.querySelector(".character")
+const ascending = document.querySelector("#ascending")
+const randomWord = document.querySelector("#search-word")
+const startWord = document.querySelector("#strt-word")
 
-const htmlString = countries.map((country) => { 
- 
+const htmlString = countries.map((country) => {
+
   return ` 
 <li class="character"> 
 <h2>${country}</h2> 
  
 </li> 
-`; 
-}) 
-.join(''); 
-container.innerHTML = htmlString; 
+`;
+
+})
+  .join('');
+container.innerHTML = htmlString;
+
+input.addEventListener("keyup", e => {
+  const searchTarget = e.target.value.toLowerCase()
+  hiddenText.style.display = "block"
+  alphabet.textContent = input.value
+  number.textContent = input.value.length
+
+  const strtWord = countries.filter((ctrs) => {
+
+    if (input.value === "") {
+      hiddenText.style.display = "none"
+    }
+    return (
+      ctrs.toLowerCase().startsWith(searchTarget)
+
+    )
+  })
 
 
- 
- 
-randomWord.addEventListener('click', e => { 
-input.addEventListener("keyup", e => { 
-  const searchTarget = e.target.value.toLowerCase() 
-  hiddenText.style.display = "block" 
- alphabet.textContent = input.value 
- number.textContent = input.value.length 
- 
- const filteredChars = countries.filter((character) => { 
-    
-   if (input.value === "") { 
-     hiddenText.style.display = "none" 
-   } 
-   return ( 
-     character.toLowerCase().includes(searchTarget) 
-      
-   ) 
-   })  
- 
-   ascending.addEventListener("click", () => { 
-  const reversedWords =  filteredChars.reverse() 
-  const reverseMap = reversedWords.map((words) => { 
-    return ` 
-    <li class="character"> 
-        <h2>${words}</h2> 
-         
-    </li> 
-`; 
-      }) 
-      .join(''); 
-      container.innerHTML = reverseMap; 
-     
-    
-   }) 
-    
-number.textContent = filteredChars.length 
- 
-   displayCharacters(filteredChars) 
-  }) 
-   
- 
-const displayCharacters = (characters) => { 
-  const htmlString = characters.map((character) => { 
- 
+
+  number.textContent = strtWord.length
+
+  if (strtWord.length === 0) {
+    noResult.style.display = "block"
+  } else {
+    noResult.style.display = "none"
+  }
+
+  displayCharacterso(strtWord)
+})
+
+
+
+const displayCharacterso = (characters) => {
+  const htmlString = characters.map((character) => {
+
     return ` 
     <li class="character"> 
         <h2>${character}</h2> 
          
     </li> 
-`; 
-      }) 
-      .join(''); 
-      container.innerHTML = htmlString; 
-     
-  };  
-}) 
-   
- 
-startWord.addEventListener('click', e => { 
-input.addEventListener("keyup", e => { 
-  const searchTarget = e.target.value.toLowerCase() 
-  hiddenText.style.display = "block" 
- alphabet.textContent = input.value 
- number.textContent = input.value.length 
- 
- const strtWord = countries.filter((woah) => { 
-    
-   if (input.value === "") { 
-     hiddenText.style.display = "none" 
-   } 
-   return ( 
-     woah.toLowerCase().startsWith(searchTarget) 
-      
-   ) 
-   })  
- 
-   ascending.addEventListener("click", () => { 
-  const reversedWords =  strtWord.reverse() 
-  const reverseMap = reversedWords.map((words) => { 
-    return ` 
-    <li class="character"> 
-        <h2>${words}</h2> 
-         
-    </li> 
-`; 
-      }) 
-      .join(''); 
-      container.innerHTML = reverseMap; 
-     
-    
-   }) 
-    
-number.textContent = startWord.length 
- 
-   displayCharacterso(strtWord) 
-  }) 
-   
- 
-const displayCharacterso = (characters) => { 
-  const htmlString = characters.map((character) => { 
- 
-    return ` 
-    <li class="character"> 
-        <h2>${character}</h2> 
-         
-    </li> 
-`; 
-      }) 
-      .join(''); 
-      container.innerHTML = htmlString; 
-     
-  };  
-}) 
+`;
+  })
+    .join('');
+  container.innerHTML = htmlString;
+
+
+};
+
