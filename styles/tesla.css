@@ -1,13 +1,13 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
     color: #fff;
@@ -19,12 +19,12 @@ body{
 .container {
     height: 100%;
     width: 100%;
-    overflow-y: scroll; 
+    overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -35,40 +35,42 @@ body{
     height: 50px;
 }
 
-.logo{
+.logo {
     width: 120px;
-    
 
-    
+
+
 }
 
-.menuList li a{
+.menuList li a {
     text-decoration: none;
     color: black;
 }
-.button-list{
+
+.button-list {
     color: black;
 }
-li{
+
+li {
     font-weight: 200;
     font-size: 15px;
     margin: 4px;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     margin-top: 13px;
 
-  
+
 }
 
-.navbar ul li{
+.navbar ul li {
     text-decoration: none;
     text-transform: uppercase;
-    
+
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +81,8 @@ section{
     height: 100vh;
     scroll-snap-align: center;
 }
-.heading{
+
+.heading {
     font-family: 'Gotham', sans-serif;
     font-weight: 900px;
     font-size: 50;
@@ -87,128 +90,131 @@ section{
     letter-spacing: 0.7px;
 }
 
-    section#Model-s{
-    background: url("../Images/modal100.jpeg") no-repeat center center/cover ;
-    }
-
-    section#Model-3 {
-        background:url("../Images/modaly.jpeg") no-repeat center center/cover ;
-        }
-
-        section#model-x {
-            background:url("../Images/modals.jpeg") no-repeat center center/cover ;
-            }
-
-            section#model-Y{
-                background:url("../Images/modalx.jpeg") no-repeat center center/cover ;
-                }
-
-
-            section#solar-Roof{
-                background:url("../Images/roof.jpg") no-repeat center center/cover ;
-                }
-
-                section#solar-panel{
-                    background:url("../Images/panels.jpg") no-repeat center center/cover ;
-                    }
-
-                    section#accessories{
-                        background:url("../Images/plug.jpeg") no-repeat center center/cover ;
-                        }
-
-                        .menu-btn{
-                            color: #fff;
-                            font-size: 23px;
-                            cursor: pointer;
-                            display: none;
-                        }
-.btns-control{
-    margin-top: 90px;
+section#Model-s {
+    background: url("modal100.jpeg") no-repeat center center/cover;
 }
-                   
 
-                        .left-btn {
-                            border-radius: 100px;
-                            min-width: 256px;
-                            padding: 18px;
-                            text-transform: uppercase;
-                            font-size: 12px;
-                            border: none;
-                           background-color: #333;
-                           color: aliceblue;
-                           text-align: center;
-                           font-family: 'Gotham', sans-serif;
-                           text-transform: uppercase;
-                        }
+section#Model-3 {
+    background: url("modaly.jpeg") no-repeat center center/cover;
+}
 
-                        .right-btn {
-                            border-radius: 100px;
-                            min-width: 256px;
-                            padding: 18px;
-                            text-transform: uppercase;
-                            font-size: 12px;
-                            background-color: rgb(255, 255, 255);
-                            color: #333;
-                            border: none;
-                            text-align: center;
-                            font-family: 'Gotham', sans-serif;
-                            text-transform: uppercase;
-                            
-                        }
+section#model-x {
+    background: url("modals.jpeg") no-repeat center center/cover;
+}
 
-                    
-@media  (max-width: 947px) {
+section#model-Y {
+    background: url("modalx.jpeg") no-repeat center center/cover;
+}
+
+
+section#solar-Roof {
+    background: url("roof.jpg") no-repeat center center/cover;
+}
+
+section#solar-panel {
+    background: url("panels.jpg") no-repeat center center/cover;
+}
+
+section#accessories {
+    background: url("plug.jpeg") no-repeat center center/cover;
+}
+
 .menu-btn {
-    display: block;
-    z-index: 999;
-  position: absolute;
- top: 30px;
- right: 20px;
-}
-
-
-
-
-
-
-.navbar .menuList{
-    background: url("../Images/cross.png");
-    position: fixed;
-    height: 100vh;
-    width: 30%;
-    background: black;
-    right:-100%;
-    top: 0;
-    text-align: center;
-    padding-top:90px ;
-    transition: all 0.7s ease;
-
-}
-
-.button-list{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
     display: none;
 }
 
-.navbar .menuList.active{
-    background-color: gainsboro;
-    right: 0;
-        }
-       
+.btns-control {
+    margin-top: 90px;
+}
 
-        
-        .navbar .menuList li{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-left: 30px;
-        }
-        .navbar .menuList li a{
-            text-decoration: none;
-       color: #333;
-            margin: 20px 0;
-            font-size: 14px;
-        }
-    
 
-   
+.left-btn {
+    border-radius: 100px;
+    min-width: 256px;
+    padding: 18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
+}
+
+.right-btn {
+    border-radius: 100px;
+    min-width: 256px;
+    padding: 18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    border: none;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+
+
+
+
+
+    .navbar .menuList {
+        background: url("cross.png");
+        position: fixed;
+        height: 100vh;
+        width: 30%;
+        background: black;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 90px;
+        transition: all 0.7s ease;
+
+    }
+
+    .button-list {
+        display: none;
+    }
+
+    .navbar .menuList.active {
+        background-color: rgb(216, 213, 213);
+        right: 0;
+    }
+
+
+
+    .navbar .menuList li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .navbar .menuList li a {
+        text-decoration: none;
+        color: #333;
+        margin: 20px 0;
+        font-size: 14px;
+    }
+
+
+
 }
