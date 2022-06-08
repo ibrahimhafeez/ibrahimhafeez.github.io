@@ -38,7 +38,7 @@
 }
 
 .title {
-    background: url("./Images.products/") center -2% / cover;
+    background: url("./Images/city.jpeg") center -2% / cover;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -482,7 +482,7 @@ font-family: 'Source Sans Pro', sans-serif;
     }
 
     .title {
-        background: url("./Images.jpeg") center / cover;
+        background: url("./Images/city.jpeg") center / cover;
         width: 100%;
         height: 90vh;
         display: flex;
@@ -608,7 +608,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title {
-    background: url("./Images.jpeg") center  / cover;
+    background: url("./Images/city.jpeg") center  / cover;
     width: 100%;
     height: 90vh;
     display: flex;
