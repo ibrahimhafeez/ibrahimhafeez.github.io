@@ -38,7 +38,7 @@
 }
 
 .title {
-    background: url("products/") center -2% / cover;
+    background: url("./Images.products/") center -2% / cover;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -158,7 +158,7 @@ font-family: 'Oswald', sans-serif;
     justify-content: center;
     align-items: center;
     color: white;
-    background: url("banner/b1.jpg") no-repeat center center/cover;
+    background: url("./Images/b1.jpg") no-repeat center center/cover;
 }
 
 .posters{
@@ -241,20 +241,20 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .post-1{
  
-    background: url("banner/b4.jpg") no-repeat center center/cover ;
+    background: url("./Images/b4.jpg") no-repeat center center/cover ;
    
   
 }
 
 .post-2{
   
-    background: url("banner/b7.jpg") no-repeat center center/cover;
+    background: url("./Images/b7.jpg") no-repeat center center/cover;
   
 }
 
 .post-3{
   
-    background: url("banner/b18.jpg") no-repeat center center/cover;
+    background: url("./Images/b18.jpg") no-repeat center center/cover;
 }
 
 .small-post h4{
@@ -341,11 +341,11 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .poster-1{
-    background: url("banner/b17.jpg") no-repeat center center/cover;
+    background: url("./Images/b17.jpg") no-repeat center center/cover;
 }
 
 .poster-2{
-    background: url("banner/b10.jpg") no-repeat center center/cover;
+    background: url("./Images/b10.jpg") no-repeat center center/cover;
 }
 
 
@@ -482,7 +482,7 @@ font-family: 'Source Sans Pro', sans-serif;
     }
 
     .title {
-        background: url("city.jpeg") center / cover;
+        background: url("./Images.jpeg") center / cover;
         width: 100%;
         height: 90vh;
         display: flex;
@@ -537,7 +537,7 @@ font-family: 'Source Sans Pro', sans-serif;
         justify-content: center;
         align-items: center;
         color: white;
-        background: url("banner/b1.jpg") no-repeat center center/cover;
+        background: url("./Images/b1.jpg") no-repeat center center/cover;
     }
     .posters {
         width: 100%;
@@ -608,7 +608,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title {
-    background: url("city.jpeg") center  / cover;
+    background: url("./Images.jpeg") center  / cover;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -1121,13 +1121,12 @@ font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
   }
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
   #main {
     transition: margin-left .5s;
     padding: 20px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+ 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
