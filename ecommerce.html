@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald:wght@200;400&family=Playfair+Display:ital,wght@1,400;1,600;1,700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="ecommerce.js" async></script>
+</head>
+<body>
+    <div class="contain">
+        <div id="header">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <ul class="navList">
+                <li><a href="shopping.html"></a><span onclick="openNav()"><div class="cart-logo"><i class="fa fa-shopping-cart"><div class="cart-number"></div></i></span>
+            </ul>
+    
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+          </div>
+         
+
+
+          
+
+        <div class="title">
+            <h3>Trade-in-offer</h3>
+            <h2>Super Value Deal</h2>
+            <h2>On all Products</h2>
+            <button>Shop Now!</button>
+        </div>
+
+        <div class="facilities-section">
+            <div class="facilities-box">
+                <img src="./features/f2.png">
+                <div>Online Order</div>
+            </div>
+
+
+            <div class="facilities-box">
+                <img src="./features/f3.png">
+                <div>Save Money</div>
+            </div>
+
+            <div class="facilities-box">
+                <img src="./features/f1.png">
+                <div>Promotons</div>
+            </div>
+
+
+
+            <div class="facilities-box">
+                <img src="./features/f4.png">
+                <div>Happy Sale</div>
+            </div>
+            
+
+
+            <div class="facilities-box">
+                <img src="./features/f5.png">
+                <div>24/7 support</div>
+            </div>
+
+
+            <div class="facilities-box">
+                <img src="./features/f6.png">
+                <div>Free shipping</div>
+
+            </div>
+        </div>
+
+        <div class="products-header">
+            <div class="header">
+                <h1>Featured Products</h1>
+                <h3>Summer Collection new modern design</h3>
+            </div>
+
+            <div class="products-part">
+                <div class="parts">
+                    <img class="shop-item-image" src="./products/f1.jpg">
+                    <span class='shop-item-title'>Down Shirt</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+               
+
+                <div class="parts">
+                        <img class="shop-item-image" src="./products/f2.jpg">
+                        <span class='shop-item-title'> Down Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+              
+
+
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f3.jpg">
+                        <span class='shop-item-title'> Aqua Button-Down Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f4.jpg">
+                        <span class='shop-item-title'>White Button-Down Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f5.jpg">
+                        <span class='shop-item-title'>Violet Button-Down Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f6.jpg">
+                        <span class='shop-item-title'>Classic Button-Down Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+
+
+
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f7.jpg">
+                        <span class='shop-item-title'>Cartoon closed shorts</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/f8.jpg">
+                        <span class='shop-item-title'>Girl dress</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$16.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+               
+            
+
+            </div>
+
+            <div class="banner">
+                <div class="banner-text">
+                    <h2>New Collection is out now!</h2>
+                    <h3>Up to 70% Off%</h3>
+                </div>
+            </div>
+
+            <div class="products-header">
+                <div class="header">
+                    <h1>New Arrivals</h1>
+                    <h3>new modern design with great fitting</h3>
+                </div>
+
+                <div class="products-part">
+                    <div class="parts">
+                        <img class="shop-item-image" src="./products/n1.jpg">
+                        <span class='shop-item-title'> Blue Office Shirt</span>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                   
+    
+                    <div class="parts">
+                            <img class="shop-item-image" src="./products/n2.jpg">
+                            <span class='shop-item-title'> Grey Office Shirt</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                  
+    
+    
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n3.jpg">
+                            <span class='shop-item-title'>White Office Shirt</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+    
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n4.jpg">
+                            <span class='shop-item-title'>Army Shirt</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+    
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n5.jpg">
+                            <span class='shop-item-title'>Denim Jacket</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n6.jpg">
+                            <span class='shop-item-title'>Gray Shorts</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+    
+    
+    
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n7.jpg">
+                            <span class='shop-item-title'>Brown full-sleeved shorts</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$12.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+                        <div class="parts">
+                            <img class="shop-item-image" src="./products/n8.jpg">
+                            <span class='shop-item-title'>Black Summer Shirt</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$16.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                   
+                </div>
+                </div>
+
+
+                <section class="posters">
+                    <div class="poster poster-1">
+                        <h4 class="header">crazy deals</h4>
+                        <h2>Buy 1 get 1 free</h2>
+                        <h4>The best classic dress is on sale on Cara</h4>
+                        <button class="poster-button">Collection</button>
+                    </div>
+                    <div class="poster poster-2">
+                        <h4 class="header">crazy deals</h4>
+                        <h2>Buy 1 get 1 free</h2>
+                        <h4>The best classic dress is on sale on Cara</h4>
+                        <button class="poster-button">Collection</button>
+                    </div>
+                </section>
+
+          
+                <div class="newletter-section">
+                    <div class="newsletter-writing">
+                        <h1>Sign up for Newsletter</h1>
+                        <h4>Get E-mail updates about our latest shop and <span>Special Offers</span></h4>
+                    </div>
+<div class="input-row">
+                    <input class="input" type="text" placeholder="Your email address"><button class="btn">Sign
+                        up</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="col">
+                <div class="logo">
+                    <img src="logo.png">
+                    <div class="address">
+                    <div class="footer-title">Address</div>
+                     <div>United States of America, California 42/3</div>
+                    <div>Phone: 00 99886634</div>
+                    <div>Hours: 10:00</div>
+                    </div>
+                    <div class="socialmedia-icons">
+                        <div class="footer-title"></div>
+                        <div class="logos">
+                        <i class="fa fa-facebook-f"></i>
+                           <i class="fa fa-instagram"></i>
+                            <i class="fa fa-youtube-play"></i>
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="footer-title">About Us</div>
+                <div>Delivery option</div>
+                <div>About us</div>
+                <div>Newsletter</div>
+            </div>
+
+            <div class="col">
+                <div class="footer-title">Sign In</div>
+               
+                <div>View cart</div>
+                <div>My wishlist</div>
+                <div>Track my order</div>
+            </div>
+
+            <div class="col">
+                <div class="footer-title"></div>
+                <div>From app store or Google play</div>
+                <div>Track my order</div>
+                <div class="row">
+                    <div class="app-logo"><img src="img/pay/app.jpg"></div>
+                    <div class="app-logo"><img src="img/pay/play.jpg"></div>
+                </div>
+                <div>Secured Payment Gateway</div>
+                <img src="img/pay/pay.png">
+            </div>
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+          
+</body>
+</html>
