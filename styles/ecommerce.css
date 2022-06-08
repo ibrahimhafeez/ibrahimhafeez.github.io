@@ -15,7 +15,7 @@
 }
 
 #header {
-
+    background: url("./Images/city.jpeg") center -2% / cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
