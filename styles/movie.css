@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/*basic web styling*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 300px;
+    width:300px
+}
+
+header{
+    background-color: rgb(14, 72, 173);
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+    width: 100vw;
+
+}
+#icon{
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+
+li{margin: 20px;}
+input{
+    height:30px;
+    width: 200px;
+    background-color: rgb(14, 72, 173);
+    border: 1px solid rgb(3, 3, 74);
+    border-radius: 10px;
+ margin: 7px;
+ padding: 5px;
+}
+
+input:focus{
+    outline: 0;
+    background-color: aliceblue;
+}
+    main{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto  auto auto;
+        gap: 10px;
+        padding: 30px;
+        }
+.movie{
+    background-color: rgb(5, 5, 5);
+    
+    height: 650px;
+   padding:20px;
+   border: 5px solid rgb(3, 3, 74);
+   
+}
+body{
+    background-color: rgb(11, 60, 145);
+}
+.score{
+    background-color:rgba(108, 105, 105, 0.33);
+    color: greenyellow;
+    padding: 5px;
+}
+.overview{
+    font-family: 'Open Sans', sans-serif;
+        color: whitesmoke;
+        margin-top: 10px;}
+.movie-info span{
+    background-color: rgb(66, 65, 65);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+        span.green{
+            color: greenyellow;
+            background-color: rgb(66, 65, 65);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+           
+        }
+     span.yellow{
+            color: yellow;
+            background-color: rgb(66, 65, 65);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+           
+        }
+        span.red{
+            color: red;
+            background-color: rgb(66, 65, 65);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+            
+        }
+/* makin the web  Responsive */
+
+    @media(max-width:1200px){
+        main{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+    @media(max-width:600px){
+        main{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        img{
+            height: 250px;
+            width: 350px;
+        }
+    .overview{
+        font-size: 10px;
+    }
+    
+        .movie{
+            background-color: rgb(5, 5, 5);
+           
+            height: 500px;
+           padding:20px;
+           border: 5px solid rgb(3, 3, 74);
+           
+        }
+      
+        li{
+            display: none;
+        }
+        
+        }
